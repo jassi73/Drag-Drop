@@ -85,7 +85,6 @@ if(state.length===0){
   state.push(...finalData);
 }else{
   state.splice(editIndex, 1, ...finalData.map((item)=> item))
-  
 }
    
     setData(finalData);

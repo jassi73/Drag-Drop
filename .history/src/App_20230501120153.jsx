@@ -23,10 +23,9 @@ const App = () => {
     setData((prev) => [...prev, data]);
   };
 
-  const addProducts = () => {
+  const addProducts = (data) => {
     state.push(...initialState)
     localStorage.setItem("addedProducts", JSON.stringify(state));
-    settingData(state)
 
   }
   return (

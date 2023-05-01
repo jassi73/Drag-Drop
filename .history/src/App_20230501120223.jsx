@@ -26,7 +26,7 @@ const App = () => {
   const addProducts = () => {
     state.push(...initialState)
     localStorage.setItem("addedProducts", JSON.stringify(state));
-    settingData(state)
+    settingData(initialState)
 
   }
   return (

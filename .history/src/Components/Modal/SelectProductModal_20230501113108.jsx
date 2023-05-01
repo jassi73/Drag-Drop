@@ -81,13 +81,8 @@ console.log("jassi", editIndex)
     let state = JSON.parse(localStorage.getItem("addedProducts"))
       ? JSON.parse(localStorage.getItem("addedProducts"))
       : [];
-if(state.length===0){
-  state.push(...finalData);
-}else{
-  state.splice(editIndex, 1, ...finalData.map((item)=> item))
-  
-}
-   
+
+    state.push(...finalData);
     setData(finalData);
     console.log("jassi", state);
     localStorage.setItem("addedProducts", JSON.stringify(state));

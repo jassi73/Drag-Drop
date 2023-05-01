@@ -23,12 +23,6 @@ const App = () => {
     setData((prev) => [...prev, data]);
   };
 
-  const addProducts = () => {
-    state.push(...initialState)
-    localStorage.setItem("addedProducts", JSON.stringify(state));
-    settingData(state)
-
-  }
   return (
     <DragDropContext key={1} onDragEnd={onDragEnd}>
       <div className="main">

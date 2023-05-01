@@ -81,11 +81,9 @@ const NewOne = ({ provided, index, item, setData, variants }) => {
                   <option value="">flat off</option>
                   <option value="">% off</option>
                 </select>
-                {state&&state && state.length===1? (null):(
-                  <a href="#" onClick={() => onDelete(item?.id)}>
+                {!state&&state && !state.length===1&& <a href="#" onClick={() => onDelete(item?.id)}>
                   <img src="/close.png" height="18" width="21" alt="png file" />
-                </a>
-                )  }
+                </a> }
                
               </div>
             </div>

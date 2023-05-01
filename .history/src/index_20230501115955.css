@@ -202,14 +202,17 @@ li {
 }
 .addProduct a {
  padding: 4px;
-
+ /* height: 22px; */
+ /* width: 100%; */
+ /* background: #008060; */
  border: 1px solid #008060;
  color: #008060 !important;
  padding: 10px 15px;
  text-align: center;
  border-radius: 6px;
  font-size: 10px;
-
+ /* display: inline-flex; */
+ /* justify-content: center; */
  align-items: center;
 }
 .product {
