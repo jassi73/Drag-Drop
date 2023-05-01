@@ -90,7 +90,7 @@ const NewOne = ({ provided, index, item, setData, variants }) => {
           </div>
         </li>
         <li>
-          {item?.variants && item.variants.length > 1  && (
+          {item?.variants && item.variants.length > 0 && (
             <div className={isDiscount ? "showVerit" : "hide"}>
               <a href="#" onClick={showVariant}>
                 {isVariantVisible ? "Hide Variant" : "Show Variant"}
@@ -102,7 +102,7 @@ const NewOne = ({ provided, index, item, setData, variants }) => {
           <Droppable droppableId="droppable-2">
             {(provided) => (
               <ul
-                className={isVariantVisible || item?.variants && item.variants.length === 1 &&isDiscount? "innerVerit" : "hide"}
+                className={isVariantVisible ? "innerVerit" : "hide"}
                 ref={provided.innerRef}
                 {...provided.droppableProps}
               >
@@ -140,7 +140,6 @@ const NewOne = ({ provided, index, item, setData, variants }) => {
         isSelectProductModal={isModalOpen}
         handleClose={handleClose}
         setData={setData}
-        
       />
     </div>
   );

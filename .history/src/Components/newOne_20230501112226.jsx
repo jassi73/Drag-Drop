@@ -140,7 +140,6 @@ const NewOne = ({ provided, index, item, setData, variants }) => {
         isSelectProductModal={isModalOpen}
         handleClose={handleClose}
         setData={setData}
-        
       />
     </div>
   );

@@ -12,7 +12,7 @@ import Product from "../Product";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
 
-const SelectProductModal = ({ isSelectProductModal, handleClose, setData }) => {
+const SelectProductModal = ({ isSelectProductModal, handleClose, setData , editIndex}) => {
   const theme = useTheme();
   const fullScreen = useMediaQuery(theme.breakpoints.down("md"));
 

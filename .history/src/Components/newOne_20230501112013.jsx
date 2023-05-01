@@ -102,7 +102,7 @@ const NewOne = ({ provided, index, item, setData, variants }) => {
           <Droppable droppableId="droppable-2">
             {(provided) => (
               <ul
-                className={isVariantVisible || item?.variants && item.variants.length === 1 &&isDiscount? "innerVerit" : "hide"}
+                className={isVariantVisible ||item?.variants && item.variants.length > 1 ? "innerVerit" : "hide"}
                 ref={provided.innerRef}
                 {...provided.droppableProps}
               >
@@ -140,7 +140,6 @@ const NewOne = ({ provided, index, item, setData, variants }) => {
         isSelectProductModal={isModalOpen}
         handleClose={handleClose}
         setData={setData}
-        
       />
     </div>
   );
