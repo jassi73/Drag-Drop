@@ -1,0 +1,93 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  /* background-color: #242424; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+.productPicker {
+  border: 1px solid lightgrey;
+  border-radius: 2px;
+  padding: 8px;
+  margin-bottom: 8px;
+  width: 30%;
+  display: flex;
+}
+.main {
+  position: relative;
+  margin-top: 35px;
+}
+.container {
+  display: flex;
+  padding: 4px;
+}
+.container .discount {
+  display: flex;
+}
+.discountInput {
+  margin-left: 20px;
+  display: flex;
+  padding: 0px 4px;
+}
+.discountInput > input {
+  width: 48px;
+  height: 32px;
+  margin-left: 6px;
+}
+.discountInput > a {
+  margin-left: 71px;
+  cursor: pointer;
+}
+
+.discount > button {
+  box-sizing: border-box;
+  /* position: absolute; */
+  margin-left: 20px;
+  color: aliceblue;
+  cursor: pointer;
+  background: #008060;
+  border: 2px solid #008060;
+  border-radius: 4px;
+  padding: 0px 25px;
+}
+.css-1ff8729-MuiInputBase-root-MuiFilledInput-root {
+  height: 38px;
+  width: 76px;
+  margin-left: 13px;
+}
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+  /* height: 24px; */
+  width: 402px;
+}
+.task {
+  display: flex;
+  flex-direction: column;
+}
+
+.innerBox {
+  border: 1px solid #ccc;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #000;
+}
+.innerBox a {
+  flex-shrink: 0;
+  margin-left: 10px;
+}
+
+.inputBoxCs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

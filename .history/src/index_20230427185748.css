@@ -1,0 +1,49 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  /* background-color: #242424; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+.productPicker {
+  border: 1px solid lightgrey;
+  border-radius: 2px;
+  padding: 8px;
+  margin-bottom: 8px;
+  width: 30%;
+}
+.main {
+  position: relative;
+  left: 35%;
+  margin-top: 35px;
+}
+.container {
+  display: flex;
+  padding: 4px;
+}
+.container .discount {
+  display: flex;
+}
+.discountInput > input {
+  width: 48px;
+  height: 32px;
+}
+.discount > button {
+  box-sizing: border-box;
+  /* position: absolute; */
+  margin-left: 20px;
+  color: aliceblue;
+  cursor: pointer;
+  background: #008060;
+  border: 2px solid #008060;
+  border-radius: 4px;
+  padding: 0px 25px;
+}

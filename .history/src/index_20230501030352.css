@@ -1,0 +1,202 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  /* background-color: #f6f6f8; */
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  /* background-color: #242424; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  background-color: #f6f6f8 !important;
+}
+.productPicker {
+  border: 1px solid lightgrey;
+  border-radius: 2px;
+  padding: 8px;
+  margin-bottom: 8px;
+  width: 30%;
+  display: flex;
+}
+.main {
+  position: relative;
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  /* background-color: #f6f6f8; */
+}
+.container {
+  display: flex;
+  padding: 4px;
+}
+.container .discount {
+  display: flex;
+}
+.discountInput {
+  margin-left: 20px;
+  display: flex;
+  padding: 0px 4px;
+}
+.discountInput > input {
+  width: 48px;
+  height: 32px;
+  margin-left: 6px;
+}
+.discountInput > a {
+  margin-left: 71px;
+  cursor: pointer;
+}
+
+.discount > button {
+  box-sizing: border-box;
+  /* position: absolute; */
+  margin-left: 20px;
+  color: aliceblue;
+  cursor: pointer;
+  background: #008060;
+  border: 2px solid #008060;
+  border-radius: 4px;
+  padding: 0px 25px;
+}
+.css-1ff8729-MuiInputBase-root-MuiFilledInput-root {
+  height: 38px;
+  width: 76px;
+  margin-left: 13px;
+}
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+  /* height: 24px; */
+  width: 402px;
+}
+
+input[type="checkbox", checked]:checked {
+  background-color: #fa9e57;
+}
+.task {
+  display: flex;
+  flex-direction: column;
+}
+.mainDv {
+  width: 75%;
+}
+.innerBox {
+  border: 1px solid #ccc;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 0px 5px;
+  color: #000;
+  height: 40px;
+  width: 100%;
+  flex-shrink: 0;
+}
+.showVerit {
+  width: 123%;
+  text-align: right;
+}
+.innerVerit {
+  padding-left: 20px;
+}
+.showVerit a {
+  text-decoration: underline;
+  margin-right: -113px;
+}
+.btnBox {
+  width: 40%;
+  padding-left: 10px;
+}
+.dltBtn {
+  height: 22px;
+  width: 100%;
+  background: #008060;
+  color: #fff !important;
+  padding: 10px 15px;
+  text-align: center;
+  border-radius: 6px;
+  font-size: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.innerBox a {
+  flex-shrink: 0;
+  margin-left: 10px;
+}
+.innerDv {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.mainDv ul {
+  list-style-type: none;
+}
+.inputBoxCs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.inputBoxCs input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 28px;
+  padding: 5px;
+  margin: 0px 5px;
+  width: 70px;
+}
+.hide {
+  display: none;
+}
+.hide1 {
+  display: none;
+}
+.variantShow {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.variantInner {
+  display: flex;
+  width: 35%;
+  justify-content: space-between;
+  align-items: center;
+}
+.variantInner1 {
+  display: flex;
+  width: 32%;
+  justify-content: space-between;
+}
+li {
+  list-style-type: none;
+}
+.inputBox {
+  position: relative;
+}
+.inputBox input {
+  width: 500px;
+  height: 23px;
+  border-radius: 5px;
+  border: 1px solid rgb(224, 217, 217);
+  padding: 0px 26px;
+}
+.inputBoxIcon {
+  position: absolute;
+  margin-left: 6px;
+  margin-top: 4px;
+}
+.product {
+  display: flex;
+  gap: 26px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.productVariant {
+  margin-top: 20px;
+}
